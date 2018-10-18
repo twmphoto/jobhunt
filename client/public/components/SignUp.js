@@ -22,7 +22,7 @@ class SignUp extends Component {
             <div>
                 <div>This is the SignUp Component</div>
                 <form>username
-                    <TextInput 
+                    <input 
                         textAlign = 'center'
                         onChangeText = {}></TextInput>
 
