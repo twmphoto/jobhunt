@@ -24,7 +24,7 @@ class SignUp extends Component {
                 <form>username
                     <input 
                         textAlign = 'center'
-                        onChangeText = {}></TextInput>
+                        onChangeText = {}></input>
 
 
 

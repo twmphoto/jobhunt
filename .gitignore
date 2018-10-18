@@ -2,3 +2,5 @@
 .vscode
 bin/
 client/obj
+/.vscode
+gi
