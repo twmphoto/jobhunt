@@ -7,7 +7,7 @@ class Forms extends Component {
       companyName: '',
       linkToJob: '',
       status: '',
-        notes: ''
+      notes: ''
     }
   
     handleOnChange = e => {
@@ -29,7 +29,7 @@ class Forms extends Component {
                         onChange = {this.handleOnChange}
                         value={companyName}
                         name={companyName}
-                        style={textInput}
+                        
                     />
                     <label>Job Prospects</label>
                     <input
@@ -37,7 +37,7 @@ class Forms extends Component {
                         onChange = {this.handleOnChange}
                         value={linkToJob}
                         name={linkToJob}
-                        style={textInput}
+                        
                     />
                     <label>Current Status</label>
                     <select value={this.state.value} onChange={this.handleChange} value={status}>
