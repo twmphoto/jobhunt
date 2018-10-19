@@ -1,7 +1,5 @@
 import React, { Component } from 'react';
 import HomePage from '../src/components/homepage/homepage'
-import './App.css';
-import {Router, Route, Switch} from 'react-router'
 
 
 
