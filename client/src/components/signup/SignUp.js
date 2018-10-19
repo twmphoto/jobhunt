@@ -35,7 +35,8 @@ class SignUp extends Component {
                 [e.target.name]: e.target.value
             })
         } else 
-            alert('Passwords do not match')
+            e.preventDefault();
+            alert('Passwords do not match. Please retype.')
             
             
 
