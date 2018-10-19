@@ -80,6 +80,7 @@ class SignUp extends Component {
                         name={confirm}
                         style={textInput}
                     />
+                    <input type="submit" value="Submit" />
                     
 
 
