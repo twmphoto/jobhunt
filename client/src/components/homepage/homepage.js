@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
-import HeroHead from './HeroHead'
-import Footer from '../footer/footer'
+import Footer from '../footer/footer';
+import {Link} from 'react-router-dom';
 
 
 class HomePage extends Component {
@@ -8,10 +8,19 @@ class HomePage extends Component {
     render() { 
         return ( 
             <div>
-                <HeroHead 
-                title="Job Hunt"
-                subtitle="Welcome to a new way of job tracking."
-                />
+                <section className="hero is-info is-fullheight">
+                    <div className="hero-body">
+                        <div className="container">
+                            <h1 className="title">
+                                JobHunt
+                            </h1>
+                            <h2 className="subtitle">
+                                A new way of getting a job
+                            </h2>
+                            <Link className='button' to='/dashboard'>Get Started</Link>
+                        </div>
+                    </div>
+                </section>
                 <Footer />
             </div>
          );
